@@ -9,7 +9,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'game',
+    path: 'motus',
     component: MotusPageComponent
   }
 ];
