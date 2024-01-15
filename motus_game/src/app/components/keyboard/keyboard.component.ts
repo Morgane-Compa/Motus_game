@@ -13,7 +13,7 @@ export class KeyboardComponent {
   'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
 updateCode(keyValue: string) {
-  this.code = keyValue;
+  this.code += keyValue;
   console.log(keyValue);
 }
 
@@ -22,7 +22,12 @@ remove() {
 }
 
 check () {
-  return this.code === "pasteque" ? alert(" Bien joué ^ _< ") : alert("Essaie encore");
+  // return this.code === "pasteque" ? alert(" Bien joué ^ _< ") : alert("Essaie encore");
+  if(this.code === "pasteque") {
+    alert("Bien joué")
+  } else {
+    alert("pas bien")
+  }
 }
 
 }
