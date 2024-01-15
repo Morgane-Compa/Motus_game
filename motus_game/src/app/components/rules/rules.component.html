@@ -1,1 +1,19 @@
-<p>rules works!</p>
+<section *ngIf="isVisible" class="modal">
+    <div class="title">
+        <h2>Règles</h2>
+        <img src="assets/icon/close.png" alt="close" (click)="hideInfoModal()" class="close">
+    </div>
+
+    <p>Vous avez six essais pour deviner le mot du jour, entre 6 et 9 lettres, commun à tous.
+        Vous ne pouvez proposer que des mots commençant par la même lettre que le mot recherché, et qui se trouvent dans
+        notre dictionnaire.
+        Les noms propres ne sont pas acceptés.
+    </p>
+
+    <img src="assets/img/image 1.png" alt="">
+
+    <p>🟥 Les lettres entourées d'un carré rouge sont bien placées</p>
+    <p>🟡 Les lettres entourées d'un cercle jaune sont mal placées (mais présentes dans le mot).</p>
+    <p>🟦 Les lettres qui restent sur fond bleu ne sont pas dans le mot.</p>
+
+</section>

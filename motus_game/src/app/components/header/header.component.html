@@ -2,8 +2,10 @@
     <p>Prêt.e {{userPseudo}} ?</p>
     <h1>Momomotus</h1>
 
-    <button class="infoIcon">
+    <button class="infoIcon" (click)="showInfoModal()">
         <p>?</p>
     </button>
-
+    
 </header>
+
+<app-rules [isVisible]="modalService.isVisible"></app-rules>
