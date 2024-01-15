@@ -11,6 +11,7 @@ import { MotusPageComponent } from './pages/motus-page/motus-page.component';
 import { FormsModule } from '@angular/forms';
 import { KeyboardComponent } from './components/keyboard/keyboard.component';
 import { KeyComponent } from './components/key/key.component';
+import { ActionButtonComponent } from './components/action-button/action-button.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { KeyComponent } from './components/key/key.component';
     MotusPageComponent,
     KeyboardComponent,
     KeyComponent,
+    ActionButtonComponent,
   ],
   imports: [
     BrowserModule,
