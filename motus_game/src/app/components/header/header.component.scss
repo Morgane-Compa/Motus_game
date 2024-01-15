@@ -3,8 +3,20 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid white;
+    margin: 0 95px;
 }
 
 h1 {
     font-size: 42px;
+}
+
+.infoIcon {
+    border: 1px solid white;
+    border-radius: 60px;
+    background-color: #2B2B2B;
+    p {
+        margin: 5px 5px;
+        color: white;
+        font-size: larger;
+    }
 }
