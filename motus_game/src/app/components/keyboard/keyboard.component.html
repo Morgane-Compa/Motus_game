@@ -1,0 +1,5 @@
+<div>
+    <app-key *ngFor="let singleKey of keyboard" [keyValue]="singleKey" (onClickKey)="updateCode($event)"></app-key>
+    <button (click)="remove" class="bigButton">supprimer</button>
+    <button class="bigButton">valider</button>
+</div>

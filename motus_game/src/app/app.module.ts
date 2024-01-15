@@ -9,6 +9,8 @@ import { RulesComponent } from './components/rules/rules.component';
 import { ResultComponent } from './components/result/result.component';
 import { MotusPageComponent } from './pages/motus-page/motus-page.component';
 import { FormsModule } from '@angular/forms';
+import { KeyboardComponent } from './components/keyboard/keyboard.component';
+import { KeyComponent } from './components/key/key.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     RulesComponent,
     ResultComponent,
-    MotusPageComponent
+    MotusPageComponent,
+    KeyboardComponent,
+    KeyComponent,
   ],
   imports: [
     BrowserModule,
