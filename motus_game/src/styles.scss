@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2B2B2B;
+    color: white;
+    font-family: 'Sofia Sans', sans-serif;
+    h1, h2, h3, h4 {
+        font-weight: 900;
+    }
+    display: block;
+}

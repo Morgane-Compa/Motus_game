@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { RulesComponent } from './components/rules/rules.component';
 import { ResultComponent } from './components/result/result.component';
 import { MotusPageComponent } from './pages/motus-page/motus-page.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MotusPageComponent } from './pages/motus-page/motus-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
