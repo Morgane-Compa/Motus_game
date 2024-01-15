@@ -1,4 +1,10 @@
-.header {
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+h1 {
+    font-size: 42px;
 }
