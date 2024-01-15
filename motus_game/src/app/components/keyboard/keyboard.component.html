@@ -1,5 +1,3 @@
-<p>{{code}}</p>
-
 <div>
     <app-key *ngFor="let singleKey of keyboard" [keyValue]="singleKey" (onClickKey)="updateCode($event)"></app-key>
     <app-action-button (onClickCheck)="check()" (onClickRemove)="remove()"></app-action-button>

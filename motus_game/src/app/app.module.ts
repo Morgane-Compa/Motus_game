@@ -12,6 +12,8 @@ import { FormsModule } from '@angular/forms';
 import { KeyboardComponent } from './components/keyboard/keyboard.component';
 import { KeyComponent } from './components/key/key.component';
 import { ActionButtonComponent } from './components/action-button/action-button.component';
+import { BlueBoardComponent } from './components/blue-board/blue-board.component';
+import { CellBlueBoardComponent } from './components/cell-blue-board/cell-blue-board.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { ActionButtonComponent } from './components/action-button/action-button.
     KeyboardComponent,
     KeyComponent,
     ActionButtonComponent,
+    BlueBoardComponent,
+    CellBlueBoardComponent,
   ],
   imports: [
     BrowserModule,
